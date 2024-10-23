@@ -1,0 +1,57 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    better_errors (2.10.1)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+      rouge (>= 1.0.0)
+    binding_of_caller (1.0.1)
+      debug_inspector (>= 1.2.0)
+    debug_inspector (1.2.0)
+    erubi (1.13.0)
+    multi_json (1.15.0)
+    mustermann (3.0.3)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.3)
+    puma (6.4.3)
+      nio4r (~> 2.0)
+    rack (3.1.8)
+    rack-protection (4.0.0)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.0.0)
+      rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    rouge (4.4.0)
+    ruby2_keywords (0.0.5)
+    sinatra (4.0.0)
+      mustermann (~> 3.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.0.0)
+      rack-session (>= 2.0.0, < 3)
+      tilt (~> 2.0)
+    sinatra-contrib (4.0.0)
+      multi_json (>= 0.0.2)
+      mustermann (~> 3.0)
+      rack-protection (= 4.0.0)
+      sinatra (= 4.0.0)
+      tilt (~> 2.0)
+    tilt (2.4.0)
+    webrick (1.8.2)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  better_errors
+  binding_of_caller
+  puma
+  rackup
+  sinatra
+  sinatra-contrib
+
+BUNDLED WITH
+   2.4.6
